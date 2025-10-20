@@ -4,15 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información sobre el desarrollador de la PWA">
+    <meta name="theme-color" content="#333333">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Mi PWA">
+    
     <title>Acerca de mí | PWA</title>
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192x192.png">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body class="p-6 text-center">
     <header class="site-header">
         <a href="./index.html" class="brand">
-            <span class="logo">P</span>
-            <span class="brand-name">Mi PWA</span>
+            <span class="brand-name">PWA</span>
         </a>
         <nav class="nav-links">
             <a href="./index.html" class="link">Inicio</a>
@@ -24,12 +38,10 @@
 
     <main class="container">
         <div class="card text-center">
-            <h1 class="text-2xl font-bold mb-4">👤 Acerca de mí</h1>
-            <p class="mt-4">Me llamo Irving Uriel Espinosa Hernandez, estudio en la Universidad Tecnologica Emiliano Zapata (UTEZ), voy en 10mo Cuatrimestre y estoy estudiando Ingeniería en Desarrollo y Gestión de Software.</p>
+            <h1 class="text-2xl font-bold mb-4">Acerca de mí</h1>
+            <p class="mt-4">Me llamo José Antonio Díaz García, estudio en la Universidad Tecnologica Emiliano Zapata (UTEZ), voy en 10mo Cuatrimestre y estoy estudiando Ingeniería en Desarrollo y Gestión de Software.</p>
         </div>
     </main>
-
-    <footer class="site-footer">&copy; <span id="year"></span> Mi PWA — Sobre mí</footer>
 
     <script src="./register.js"></script>
 </body>

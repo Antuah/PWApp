@@ -4,7 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicación web progresiva con calendario y formularios">
+    <meta name="theme-color" content="#333333">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Mi PWA">
+    
     <title>Inicio | PWA</title>
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192x192.png">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -13,8 +28,7 @@
 <body class="p-6 text-center">
     <header class="site-header">
         <a href="./index.html" class="brand">
-            <span class="logo">P</span>
-            <span class="brand-name">Mi PWA</span>
+            <span class="brand-name">PWA</span>
         </a>
         <nav class="nav-links">
             <a href="./index.html" class="link">Inicio</a>
@@ -26,13 +40,11 @@
 
     <main class="container">
         <div class="card text-center">
-            <h1 class="text-3xl font-bold mb-4">🏠 Bienvenido a la PWA</h1>
+            <h1 class="text-3xl font-bold mb-4">Bienvenido</h1>
             <p>Esta es la página principal de la aplicación.</p>
             <div style="margin-top:1rem;"><a href="./about.html" class="btn">Conócemas</a></div>
         </div>
     </main>
-
-    <footer class="site-footer">&copy; <span id="year"></span> Mi PWA — Aplicación de ejemplo</footer>
 
     <script src="./register.js"></script>
 </body>
